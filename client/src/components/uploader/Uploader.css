@@ -1,0 +1,7 @@
+.upload {
+	background-image: url("../../assets/17545.jpg");
+	background-size: cover;
+}
+.upload form {
+	background-color: rgba(255, 255, 255, 0.329);
+}

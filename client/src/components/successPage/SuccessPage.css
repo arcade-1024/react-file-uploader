@@ -1,0 +1,46 @@
+.Success {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#0ee7a3, #59d9e9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Success-div {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 80px;
+  border-radius: 50%;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  background: radial-gradient(circle at top left, #0ee7a3, #59d9e9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Success-div img {
+  width: 50%;
+}
+
+.Success-text {
+  font-weight: 300;
+  color: #fff;
+}
+
+.Success-continue {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+
+.Success-continue:hover {
+  background: #fff;
+  color: #0ee7a3;
+}
